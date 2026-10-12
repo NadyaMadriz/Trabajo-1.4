@@ -1,0 +1,76 @@
+============================================================
+INTEGRANTES:
+Gomez Ibarra Josue Alejandro
+Munoz Madriz Nadya Janneth
+============================================================
+[Equipo: Nadya] [Nodo MPI: 0] [Rol: Servidor] [Hilos OpenMP detectados: 8] [Nivel de hilos MPI: 3]
+ 
+==== SISTEMA BANCARIO CLIENTE-SERVIDOR (MPI + OpenMP) ====
+1. Iniciar simulacion basica (5 operaciones por cliente)
+2. Iniciar simulacion masiva (100000 operaciones por cliente)
+3. Consultar saldo final del servidor
+4. Salir
+Opcion seleccionada: 1
+[Equipo: Nadya] [Proceso MPI: 0 (Servidor)] [Cliente: 4] [Hilo OpenMP: 1] [Operacion: Consulta] [Monto: $0.00] [Estado: Aprobado] [Saldo: $10000.00]
+[Equipo: Nadya] [Proceso MPI: 0 (Servidor)] [Cliente: 1] [Hilo OpenMP: 1] [Operacion: Deposito] [Monto: $108.89] [Estado: Aprobado] [Saldo: $10108.89]
+[Equipo: Nadya] [Proceso MPI: 0 (Servidor)] [Cliente: 1] [Hilo OpenMP: 2] [Operacion: Deposito] [Monto: $472.13] [Estado: Aprobado] [Saldo: $10581.02]
+[Equipo: Nadya] [Proceso MPI: 0 (Servidor)] [Cliente: 1] [Hilo OpenMP: 0] [Operacion: Consulta] [Monto: $0.00] [Estado: Aprobado] [Saldo: $10581.02]
+[Equipo: Nadya] [Proceso MPI: 0 (Servidor)] [Cliente: 4] [Hilo OpenMP: 0] [Operacion: Retiro] [Monto: $22.18] [Estado: Aprobado] [Saldo: $10558.84]
+[Equipo: Nadya] [Proceso MPI: 0 (Servidor)] [Cliente: 1] [Hilo OpenMP: 3] [Operacion: Retiro] [Monto: $607.53] [Estado: Aprobado] [Saldo: $9951.31]
+[Equipo: Nadya] [Proceso MPI: 0 (Servidor)] [Cliente: 1] [Hilo OpenMP: 4] [Operacion: Consulta] [Monto: $0.00] [Estado: Aprobado] [Saldo: $9951.31]
+[Equipo: Nadya] [Proceso MPI: 0 (Servidor)] [Cliente: 4] [Hilo OpenMP: 3] [Operacion: Deposito] [Monto: $656.20] [Estado: Aprobado] [Saldo: $10607.51]
+[Equipo: Nadya] [Proceso MPI: 0 (Servidor)] [Cliente: 4] [Hilo OpenMP: 2] [Operacion: Deposito] [Monto: $520.81] [Estado: Aprobado] [Saldo: $11128.32]
+[Equipo: Nadya] [Proceso MPI: 0 (Servidor)] [Cliente: 4] [Hilo OpenMP: 4] [Operacion: Retiro] [Monto: $19.44] [Estado: Aprobado] [Saldo: $11108.88]
+[Equipo: Nadya] [Proceso MPI: 0 (Servidor)] [Cliente: 3] [Hilo OpenMP: 2] [Operacion: Deposito] [Monto: $703.62] [Estado: Aprobado] [Saldo: $11812.50]
+[Equipo: Nadya] [Proceso MPI: 0 (Servidor)] [Cliente: 2] [Hilo OpenMP: 0] [Operacion: Deposito] [Monto: $790.68] [Estado: Aprobado] [Saldo: $12603.18]
+[Equipo: Nadya] [Proceso MPI: 0 (Servidor)] [Cliente: 3] [Hilo OpenMP: 1] [Operacion: Consulta] [Monto: $0.00] [Estado: Aprobado] [Saldo: $12603.18]
+[Equipo: Nadya] [Proceso MPI: 0 (Servidor)] [Cliente: 2] [Hilo OpenMP: 3] [Operacion: Retiro] [Monto: $424.71] [Estado: Aprobado] [Saldo: $12178.47]
+[Equipo: Nadya] [Proceso MPI: 0 (Servidor)] [Cliente: 2] [Hilo OpenMP: 4] [Operacion: Consulta] [Monto: $0.00] [Estado: Aprobado] [Saldo: $12178.47]
+[Equipo: Nadya] [Proceso MPI: 0 (Servidor)] [Cliente: 3] [Hilo OpenMP: 3] [Operacion: Deposito] [Monto: $839.02] [Estado: Aprobado] [Saldo: $13017.49]
+[Equipo: Nadya] [Proceso MPI: 0 (Servidor)] [Cliente: 3] [Hilo OpenMP: 0] [Operacion: Retiro] [Monto: $204.99] [Estado: Aprobado] [Saldo: $12812.50]
+[Equipo: Nadya] [Proceso MPI: 0 (Servidor)] [Cliente: 2] [Hilo OpenMP: 2] [Operacion: Retiro] [Monto: $289.32] [Estado: Aprobado] [Saldo: $12523.18]
+[Equipo: Nadya] [Proceso MPI: 0 (Servidor)] [Cliente: 3] [Hilo OpenMP: 4] [Operacion: Retiro] [Monto: $202.25] [Estado: Aprobado] [Saldo: $12320.93]
+[Equipo: Nadya] [Proceso MPI: 0 (Servidor)] [Cliente: 2] [Hilo OpenMP: 1] [Operacion: Deposito] [Monto: $926.08] [Estado: Aprobado] [Saldo: $13247.01]
+---- RESUMEN DE LA SIMULACION ----
+[Equipo: Nadya] [Servidor: Nodo 0] [Clientes: 4] [Operaciones por cliente: 5]
+Transacciones procesadas: 20 (esperadas: 20)
+Aprobadas: 20 | Rechazadas: 0
+Saldo inicial: $10000.00 | Saldo final consolidado: $13247.01
+Tiempo total (MPI_Wtime): 0.005123 s | Rendimiento: 3904 transacciones/s
+Verificacion: conteo OK | saldo = inicial + neto aprobado OK | neto servidor = neto clientes OK
+CONSISTENCIA DEL SALDO: CORRECTA (sin condiciones de carrera)
+ 
+==== SISTEMA BANCARIO CLIENTE-SERVIDOR (MPI + OpenMP) ====
+1. Iniciar simulacion basica (5 operaciones por cliente)
+2. Iniciar simulacion masiva (100000 operaciones por cliente)
+3. Consultar saldo final del servidor
+4. Salir
+Opcion seleccionada: 2
+---- RESUMEN DE LA SIMULACION ----
+[Equipo: Nadya] [Servidor: Nodo 0] [Clientes: 4] [Operaciones por cliente: 100000]
+Transacciones procesadas: 400000 (esperadas: 400000)
+Aprobadas: 400000 | Rechazadas: 0
+Saldo inicial: $10000.00 | Saldo final consolidado: $10055136.50
+Tiempo total (MPI_Wtime): 0.769456 s | Rendimiento: 519848 transacciones/s
+Verificacion: conteo OK | saldo = inicial + neto aprobado OK | neto servidor = neto clientes OK
+CONSISTENCIA DEL SALDO: CORRECTA (sin condiciones de carrera)
+ 
+==== SISTEMA BANCARIO CLIENTE-SERVIDOR (MPI + OpenMP) ====
+1. Iniciar simulacion basica (5 operaciones por cliente)
+2. Iniciar simulacion masiva (100000 operaciones por cliente)
+3. Consultar saldo final del servidor
+4. Salir
+Opcion seleccionada: 3
+[Equipo: Nadya] [Servidor: Nodo 0] [Operacion: Consulta de saldo final] [Saldo: $10055136.50]
+ 
+==== SISTEMA BANCARIO CLIENTE-SERVIDOR (MPI + OpenMP) ====
+1. Iniciar simulacion basica (5 operaciones por cliente)
+2. Iniciar simulacion masiva (100000 operaciones por cliente)
+3. Consultar saldo final del servidor
+4. Salir
+Opcion seleccionada: 4
+============================================================
+INTEGRANTES:
+Gomez Ibarra Josue Alejandro
+Munoz Madriz Nadya Janneth
+============================================================

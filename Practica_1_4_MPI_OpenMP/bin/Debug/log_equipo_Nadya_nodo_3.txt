@@ -1,0 +1,8 @@
+[Equipo: Nadya] [Nodo MPI: 3] [Rol: Cliente] [Hilos OpenMP detectados: 8] [Nivel de hilos MPI: 3]
+[Equipo: Nadya] [Proceso MPI: 3] [Hilo OpenMP: 2] [Operacion: Deposito] [Monto: $703.62] [Estado: Aprobado] [Saldo Final: $11812.50]
+[Equipo: Nadya] [Proceso MPI: 3] [Hilo OpenMP: 1] [Operacion: Consulta] [Monto: $0.00] [Estado: Aprobado] [Saldo Final: $12603.18]
+[Equipo: Nadya] [Proceso MPI: 3] [Hilo OpenMP: 3] [Operacion: Deposito] [Monto: $839.02] [Estado: Aprobado] [Saldo Final: $13017.49]
+[Equipo: Nadya] [Proceso MPI: 3] [Hilo OpenMP: 0] [Operacion: Retiro] [Monto: $204.99] [Estado: Aprobado] [Saldo Final: $12812.50]
+[Equipo: Nadya] [Proceso MPI: 3] [Hilo OpenMP: 4] [Operacion: Retiro] [Monto: $202.25] [Estado: Aprobado] [Saldo Final: $12320.93]
+[Equipo: Nadya] [Nodo MPI: 3] [Operaciones enviadas: 5] [Neto aprobado visto por el cliente: $1135.40] [Tiempo total: 0.005126 s]
+[Equipo: Nadya] [Nodo MPI: 3] [Operaciones enviadas: 100000] [Neto aprobado visto por el cliente: $2471371.70] [Tiempo total: 0.768599 s]

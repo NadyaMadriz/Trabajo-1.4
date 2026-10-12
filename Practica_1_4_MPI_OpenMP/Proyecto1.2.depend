@@ -1,0 +1,99 @@
+# depslib dependency file v1.0
+1789946674 source:c:\users\viole\onedrive\documentos\proyecto1.2\main_sendrecv.cpp
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<mpi.h>
+	<omp.h>
+	"OperacionesArreglos.h"
+
+1789946910 c:\users\viole\onedrive\documentos\proyecto1.2\operacionesarreglos.h
+
+1789948579 source:c:\users\viole\onedrive\documentos\proyecto1.2\operacionesarreglos.cpp
+	"OperacionesArreglos.h"
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<omp.h>
+
+1789946674 source:c:\users\viole\onedrive\documentos\practica_1_3_mpi_openmp\main_sendrecv.cpp
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<mpi.h>
+	<omp.h>
+	"OperacionesArreglos.h"
+
+1791146837 c:\users\viole\onedrive\documentos\practica_1_3_mpi_openmp\operacionesarreglos.h
+	<fstream>
+
+1791146837 source:c:\users\viole\onedrive\documentos\practica_1_3_mpi_openmp\operacionesarreglos.cpp
+	"OperacionesArreglos.h"
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<ctime>
+	<climits>
+	<omp.h>
+
+1789946472 source:c:\users\viole\onedrive\documentos\practica_1_3_mpi_openmp\main.cpp.cpp
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<mpi.h>
+	<omp.h>
+	"OperacionesArreglos.h"
+
+1791146816 source:c:\users\viole\onedrive\documentos\practica_1_3_mpi_openmp\main.cpp
+	<cstdio>
+	<cstdlib>
+	<cstdarg>
+	<mpi.h>
+	<omp.h>
+	"OperacionesArreglos.h"
+
+1791146837 source:c:\users\viole\onedrive\documentos\practica_1_4_mpi_openmp\operacionesarreglos.cpp
+	"OperacionesArreglos.h"
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<ctime>
+	<climits>
+	<omp.h>
+
+1791146837 c:\users\viole\onedrive\documentos\practica_1_4_mpi_openmp\operacionesarreglos.h
+	<fstream>
+
+1791399463 source:c:\users\viole\onedrive\documentos\practica_1_4_mpi_openmp\banco.cpp
+	"Banco.h"
+	<mpi.h>
+	<omp.h>
+	<cstdlib>
+	<cstring>
+	<cstdio>
+	<ctime>
+
+1791399463 c:\users\viole\onedrive\documentos\practica_1_4_mpi_openmp\banco.h
+	"LogNodo.h"
+	"Transaccion.h"
+
+1791399463 c:\users\viole\onedrive\documentos\practica_1_4_mpi_openmp\lognodo.h
+	<fstream>
+
+1791399463 c:\users\viole\onedrive\documentos\practica_1_4_mpi_openmp\transaccion.h
+
+1791650112 source:c:\users\viole\onedrive\documentos\practica_1_4_mpi_openmp\lognodo.cpp
+	"LogNodo.h"
+	<cstdio>
+	<cstring>
+	<cstdarg>
+
+1791650117 source:c:\users\viole\onedrive\documentos\practica_1_4_mpi_openmp\main.cpp
+	<cstdio>
+	<cstdlib>
+	<cmath>
+	<mpi.h>
+	<omp.h>
+	"LogNodo.h"
+	"Banco.h"
+

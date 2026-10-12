@@ -1,0 +1,274 @@
+============================================================
+INTEGRANTES:
+Gomez Ibarra Josue Alejandro
+Munoz Madriz Nadya Janneth
+============================================================
+[Equipo: Nadya] [Proceso MPI: 0] listo (5 procesos, 8 hilos OpenMP).
+
+==== OPERACIONES CON ARREGLOS DISTRIBUIDOS (MPI + OpenMP) ====
+1. Crear arreglos
+2. Sumar arreglos
+3. Restar arreglos
+4. Multiplicar arreglos
+5. Calcular el cuadrado de un arreglo
+6. Llenar secuencial
+7. Llenar aleatorio
+8. Sumatoria
+9. Promedio
+10. Maximo
+11. Minimo
+12. Salir
+[Equipo: Nadya] [Proceso MPI: 0] [Operacion: Crear Arreglos] [Valor: seccion local de 800000 elementos, N global = 4000000]
+
+==== OPERACIONES CON ARREGLOS DISTRIBUIDOS (MPI + OpenMP) ====
+1. Crear arreglos
+2. Sumar arreglos
+3. Restar arreglos
+4. Multiplicar arreglos
+5. Calcular el cuadrado de un arreglo
+6. Llenar secuencial
+7. Llenar aleatorio
+8. Sumatoria
+9. Promedio
+10. Maximo
+11. Minimo
+12. Salir
+[Equipo: Nadya] [Proceso MPI: 0] [Operacion: Llenado Aleatorio] [Tiempo: 0.029483 s]
+
+==== OPERACIONES CON ARREGLOS DISTRIBUIDOS (MPI + OpenMP) ====
+1. Crear arreglos
+2. Sumar arreglos
+3. Restar arreglos
+4. Multiplicar arreglos
+5. Calcular el cuadrado de un arreglo
+6. Llenar secuencial
+7. Llenar aleatorio
+8. Sumatoria
+9. Promedio
+10. Maximo
+11. Minimo
+12. Salir
+[Equipo: Nadya] [Proceso MPI: 0] [Operacion: Suma] [Tiempo: 0.025675 s]
+
+==== OPERACIONES CON ARREGLOS DISTRIBUIDOS (MPI + OpenMP) ====
+1. Crear arreglos
+2. Sumar arreglos
+3. Restar arreglos
+4. Multiplicar arreglos
+5. Calcular el cuadrado de un arreglo
+6. Llenar secuencial
+7. Llenar aleatorio
+8. Sumatoria
+9. Promedio
+10. Maximo
+11. Minimo
+12. Salir
+[Equipo: Nadya] [Proceso MPI: 0] [Operacion: Sumatoria Local] [Valor: 395884769872]
+[Equipo: Nadya] [Proceso MPI: 0] [Operacion: Sumatoria Global (MPI_Reduce)] [Valor: 1979188533665]
+[Equipo: Nadya] [Proceso MPI: 0] [Operacion: Sumatoria con MPI_Reduce] [Tiempo: 0.002746 s]
+
+==== OPERACIONES CON ARREGLOS DISTRIBUIDOS (MPI + OpenMP) ====
+1. Crear arreglos
+2. Sumar arreglos
+3. Restar arreglos
+4. Multiplicar arreglos
+5. Calcular el cuadrado de un arreglo
+6. Llenar secuencial
+7. Llenar aleatorio
+8. Sumatoria
+9. Promedio
+10. Maximo
+11. Minimo
+12. Salir
+[Equipo: Nadya] [Proceso MPI: 0] [Operacion: Sumatoria Local] [Valor: 395884769872]
+[Equipo: Nadya] [Proceso MPI: 0] [Operacion: Promedio Global (MPI_Reduce)] [Valor: 494797.133416]
+[Equipo: Nadya] [Proceso MPI: 0] [Operacion: Promedio con MPI_Reduce] [Tiempo: 0.003226 s]
+
+==== OPERACIONES CON ARREGLOS DISTRIBUIDOS (MPI + OpenMP) ====
+1. Crear arreglos
+2. Sumar arreglos
+3. Restar arreglos
+4. Multiplicar arreglos
+5. Calcular el cuadrado de un arreglo
+6. Llenar secuencial
+7. Llenar aleatorio
+8. Sumatoria
+9. Promedio
+10. Maximo
+11. Minimo
+12. Salir
+[Equipo: Nadya] [Proceso MPI: 0] [Operacion: Maximo Local] [Valor: 1000000]
+[Equipo: Nadya] [Proceso MPI: 0] [Operacion: Maximo Global (MPI_Reduce)] [Valor: 1000000]
+[Equipo: Nadya] [Proceso MPI: 0] [Operacion: Maximo con MPI_Reduce] [Tiempo: 0.008044 s]
+
+==== OPERACIONES CON ARREGLOS DISTRIBUIDOS (MPI + OpenMP) ====
+1. Crear arreglos
+2. Sumar arreglos
+3. Restar arreglos
+4. Multiplicar arreglos
+5. Calcular el cuadrado de un arreglo
+6. Llenar secuencial
+7. Llenar aleatorio
+8. Sumatoria
+9. Promedio
+10. Maximo
+11. Minimo
+12. Salir
+[Equipo: Nadya] [Proceso MPI: 0] [Operacion: Minimo Local] [Valor: 2]
+[Equipo: Nadya] [Proceso MPI: 0] [Operacion: Minimo Global (MPI_Reduce)] [Valor: 1]
+[Equipo: Nadya] [Proceso MPI: 0] [Operacion: Minimo con MPI_Reduce] [Tiempo: 0.006575 s]
+
+==== OPERACIONES CON ARREGLOS DISTRIBUIDOS (MPI + OpenMP) ====
+1. Crear arreglos
+2. Sumar arreglos
+3. Restar arreglos
+4. Multiplicar arreglos
+5. Calcular el cuadrado de un arreglo
+6. Llenar secuencial
+7. Llenar aleatorio
+8. Sumatoria
+9. Promedio
+10. Maximo
+11. Minimo
+12. Salir
+[Equipo: Nadya] [Proceso MPI: 0] [Operacion: Sumatoria Local] [Valor: 395884769872]
+[Equipo: Nadya] [Proceso MPI: 0] [Operacion: Sumatoria Global (MPI_Reduce)] [Valor: 1979188533665]
+[Equipo: Nadya] [Proceso MPI: 0] [Operacion: Sumatoria con MPI_Reduce] [Tiempo: 0.003208 s]
+
+==== OPERACIONES CON ARREGLOS DISTRIBUIDOS (MPI + OpenMP) ====
+1. Crear arreglos
+2. Sumar arreglos
+3. Restar arreglos
+4. Multiplicar arreglos
+5. Calcular el cuadrado de un arreglo
+6. Llenar secuencial
+7. Llenar aleatorio
+8. Sumatoria
+9. Promedio
+10. Maximo
+11. Minimo
+12. Salir
+[Equipo: Nadya] [Proceso MPI: 0] [Operacion: Sumatoria Local] [Valor: 395884769872]
+[Equipo: Nadya] [Proceso MPI: 0] [Operacion: Promedio Global (MPI_Reduce)] [Valor: 494797.133416]
+[Equipo: Nadya] [Proceso MPI: 0] [Operacion: Promedio con MPI_Reduce] [Tiempo: 0.004554 s]
+
+==== OPERACIONES CON ARREGLOS DISTRIBUIDOS (MPI + OpenMP) ====
+1. Crear arreglos
+2. Sumar arreglos
+3. Restar arreglos
+4. Multiplicar arreglos
+5. Calcular el cuadrado de un arreglo
+6. Llenar secuencial
+7. Llenar aleatorio
+8. Sumatoria
+9. Promedio
+10. Maximo
+11. Minimo
+12. Salir
+[Equipo: Nadya] [Proceso MPI: 0] [Operacion: Maximo Local] [Valor: 1000000]
+[Equipo: Nadya] [Proceso MPI: 0] [Operacion: Maximo Global (MPI_Reduce)] [Valor: 1000000]
+[Equipo: Nadya] [Proceso MPI: 0] [Operacion: Maximo con MPI_Reduce] [Tiempo: 0.001496 s]
+
+==== OPERACIONES CON ARREGLOS DISTRIBUIDOS (MPI + OpenMP) ====
+1. Crear arreglos
+2. Sumar arreglos
+3. Restar arreglos
+4. Multiplicar arreglos
+5. Calcular el cuadrado de un arreglo
+6. Llenar secuencial
+7. Llenar aleatorio
+8. Sumatoria
+9. Promedio
+10. Maximo
+11. Minimo
+12. Salir
+[Equipo: Nadya] [Proceso MPI: 0] [Operacion: Minimo Local] [Valor: 2]
+[Equipo: Nadya] [Proceso MPI: 0] [Operacion: Minimo Global (MPI_Reduce)] [Valor: 1]
+[Equipo: Nadya] [Proceso MPI: 0] [Operacion: Minimo con MPI_Reduce] [Tiempo: 0.001420 s]
+
+==== OPERACIONES CON ARREGLOS DISTRIBUIDOS (MPI + OpenMP) ====
+1. Crear arreglos
+2. Sumar arreglos
+3. Restar arreglos
+4. Multiplicar arreglos
+5. Calcular el cuadrado de un arreglo
+6. Llenar secuencial
+7. Llenar aleatorio
+8. Sumatoria
+9. Promedio
+10. Maximo
+11. Minimo
+12. Salir
+[Equipo: Nadya] [Proceso MPI: 0] [Operacion: Sumatoria Local] [Valor: 395884769872]
+[Equipo: Nadya] [Proceso MPI: 0] [Operacion: Sumatoria Global (MPI_Allreduce)] [Valor: 1979188533665]
+[Equipo: Nadya] [Proceso MPI: 0] [Operacion: Sumatoria con MPI_Allreduce] [Tiempo: 0.003724 s]
+
+==== OPERACIONES CON ARREGLOS DISTRIBUIDOS (MPI + OpenMP) ====
+1. Crear arreglos
+2. Sumar arreglos
+3. Restar arreglos
+4. Multiplicar arreglos
+5. Calcular el cuadrado de un arreglo
+6. Llenar secuencial
+7. Llenar aleatorio
+8. Sumatoria
+9. Promedio
+10. Maximo
+11. Minimo
+12. Salir
+[Equipo: Nadya] [Proceso MPI: 0] [Operacion: Sumatoria Local] [Valor: 395884769872]
+[Equipo: Nadya] [Proceso MPI: 0] [Operacion: Promedio Global (MPI_Allreduce)] [Valor: 494797.133416]
+[Equipo: Nadya] [Proceso MPI: 0] [Operacion: Promedio con MPI_Allreduce] [Tiempo: 0.005569 s]
+
+==== OPERACIONES CON ARREGLOS DISTRIBUIDOS (MPI + OpenMP) ====
+1. Crear arreglos
+2. Sumar arreglos
+3. Restar arreglos
+4. Multiplicar arreglos
+5. Calcular el cuadrado de un arreglo
+6. Llenar secuencial
+7. Llenar aleatorio
+8. Sumatoria
+9. Promedio
+10. Maximo
+11. Minimo
+12. Salir
+[Equipo: Nadya] [Proceso MPI: 0] [Operacion: Maximo Local] [Valor: 1000000]
+[Equipo: Nadya] [Proceso MPI: 0] [Operacion: Maximo Global (MPI_Allreduce)] [Valor: 1000000]
+[Equipo: Nadya] [Proceso MPI: 0] [Operacion: Maximo con MPI_Allreduce] [Tiempo: 0.007146 s]
+
+==== OPERACIONES CON ARREGLOS DISTRIBUIDOS (MPI + OpenMP) ====
+1. Crear arreglos
+2. Sumar arreglos
+3. Restar arreglos
+4. Multiplicar arreglos
+5. Calcular el cuadrado de un arreglo
+6. Llenar secuencial
+7. Llenar aleatorio
+8. Sumatoria
+9. Promedio
+10. Maximo
+11. Minimo
+12. Salir
+[Equipo: Nadya] [Proceso MPI: 0] [Operacion: Minimo Local] [Valor: 2]
+[Equipo: Nadya] [Proceso MPI: 0] [Operacion: Minimo Global (MPI_Allreduce)] [Valor: 1]
+[Equipo: Nadya] [Proceso MPI: 0] [Operacion: Minimo con MPI_Allreduce] [Tiempo: 0.006794 s]
+
+==== OPERACIONES CON ARREGLOS DISTRIBUIDOS (MPI + OpenMP) ====
+1. Crear arreglos
+2. Sumar arreglos
+3. Restar arreglos
+4. Multiplicar arreglos
+5. Calcular el cuadrado de un arreglo
+6. Llenar secuencial
+7. Llenar aleatorio
+8. Sumatoria
+9. Promedio
+10. Maximo
+11. Minimo
+12. Salir
+============================================================
+INTEGRANTES:
+Gomez Ibarra Josue Alejandro
+Munoz Madriz Nadya Janneth
+============================================================

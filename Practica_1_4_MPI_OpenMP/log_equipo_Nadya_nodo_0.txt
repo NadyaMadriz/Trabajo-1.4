@@ -1,0 +1,12 @@
+============================================================
+INTEGRANTES:
+Gomez Ibarra Josue Alejandro
+Munoz Madriz Nadya Janneth
+============================================================
+[Equipo: Nadya] [Nodo MPI: 0] [Rol: Servidor] [Hilos OpenMP detectados: 8] [Nivel de hilos MPI: 3]
+Se necesitan al menos 2 procesos (1 servidor + 1 cliente). Use: mpiexec -n 5 Proyecto1.exe
+============================================================
+INTEGRANTES:
+Gomez Ibarra Josue Alejandro
+Munoz Madriz Nadya Janneth
+============================================================
